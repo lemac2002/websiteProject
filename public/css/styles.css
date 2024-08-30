@@ -1,3 +1,69 @@
 body{
     background-color: white;
 }
+
+:root{
+    --font-family: 'Merriweather', serif;
+    bs-font-size: 16px; 
+}
+
+.container-xxl{
+    max-width: 1500px;
+    
+}
+
+body{
+    background-color: #3BB593;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+a{
+    color: var(-bs-dark);
+}
+
+.explore-btn {
+    background-color: #3BB593;
+    border-color: #3BB593;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.explore-btn:hover {
+    background-color: #34a381; /* Slightly darker shade for hover */
+    border-color: #34a381; /* Match the border with the background on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.category__link{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    transition: all 250ms;
+}
+
+.category__link:hover{
+    transform: scale(1.1);
+}
+
+.category__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,.16);
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.category__img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.category__img--lg{
+    height: 200px;
+}
